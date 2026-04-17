@@ -1,0 +1,30 @@
+{
+  "areas": [
+    { "id": "adm-pre", "name": "Atención Admisión Pregrado" },
+    { "id": "pre", "name": "Atención al Usuario de Pregrado" },
+    { "id": "post", "name": "Atención al Usuario de Postgrado" },
+    { "id": "idiomas-si", "name": "Idiomas - Sede San Isidro" },
+    { "id": "idiomas-mf", "name": "Idiomas - Sede Miraflores" }
+  ],
+  "assistants": [
+    { "id": "ed-chavez", "name": "Ed Chavez", "areaId": "adm-pre", "active": true, "role": "DEVELOPER" },
+    { "id": "astrid", "name": "Astrid Neira", "areaId": "adm-pre", "active": true, "role": "COLABORADOR" },
+    { "id": "lia", "name": "Lía Najarro", "areaId": "adm-pre", "active": true, "role": "COLABORADOR" },
+    { "id": "precilia", "name": "Precilia Yupanqui", "areaId": "adm-pre", "active": true, "role": "COLABORADOR" },
+    { "id": "apoyo1", "name": "Apoyo 1", "areaId": "adm-pre", "active": true, "role": "COLABORADOR" },
+    { "id": "apoyo2", "name": "Apoyo 2", "areaId": "adm-pre", "active": true, "role": "COLABORADOR" },
+    { "id": "colab1-si", "name": "Colaborador 1 - SI", "areaId": "idiomas-si", "active": true, "role": "COLABORADOR" },
+    { "id": "colab1-mf", "name": "Colaborador 1 - MF", "areaId": "idiomas-mf", "active": true, "role": "COLABORADOR" }
+  ],
+  "indicators": [
+    { "key": "presencial", "label": "Bmatic", "active": true, "iconName": "Building2" },
+    { "key": "correo", "label": "Correo", "active": true, "iconName": "Mail" },
+    { "key": "llamadasEntrantes", "label": "Llam. Entr.", "active": true, "iconName": "PhoneCall" },
+    { "key": "llamadasSalientes", "label": "Llam. Sal.", "active": true, "iconName": "PhoneCall" },
+    { "key": "salesforce", "label": "Salesforce", "active": true, "iconName": "Database" },
+    { "key": "asesoriaEducativa", "label": "Drive", "active": true, "iconName": "FileSpreadsheet" },
+    { "key": "satisfactionHappy", "label": "😊 Excelente", "active": true, "group": "CSAT", "iconName": "CheckCircle2" },
+    { "key": "satisfactionNeutral", "label": "😐 Regular", "active": true, "group": "CSAT", "iconName": "AlertCircle" },
+    { "key": "satisfactionSad", "label": "☹️ Mala", "active": true, "group": "CSAT", "iconName": "Trash2" }
+  ]
+}

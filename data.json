@@ -1,0 +1,124 @@
+[
+  {
+    "id": "a02b3030-ddf5-4ce2-9ae6-24b00b570449",
+    "timestamp": "2026-04-14T14:00:00.000Z",
+    "assistantId": "astrid",
+    "areaId": "adm-pre",
+    "date": "2026-04-14",
+    "correo": 12,
+    "llamadasEntrantes": 8,
+    "llamadasSalientes": 5,
+    "salesforce": 3,
+    "asesoriaEducativa": 2,
+    "presencial": 15
+  },
+  {
+    "id": "d20cd031-a012-491d-b8d5-ccff0c1c877e",
+    "timestamp": "2026-04-14T14:30:00.000Z",
+    "assistantId": "lia",
+    "areaId": "adm-pre",
+    "date": "2026-04-14",
+    "presencial": 18,
+    "llamadasEntrantes": 15,
+    "correo": 5,
+    "asesoriaEducativa": 4
+  },
+  {
+    "id": "a9f349b3-dd5d-49e6-b241-7591cdfd0cee",
+    "timestamp": "2026-04-15T10:00:00.000Z",
+    "assistantId": "precilia",
+    "areaId": "adm-pre",
+    "date": "2026-04-15",
+    "presencial": 22,
+    "correo": 14,
+    "llamadasEntrantes": 10,
+    "salesforce": 6
+  },
+  {
+    "id": "77e5a265-56d0-4960-ae74-2a9a5fa3d049",
+    "timestamp": "2026-04-15T11:00:00.000Z",
+    "assistantId": "lia",
+    "areaId": "adm-pre",
+    "date": "2026-04-15",
+    "presencial": 14,
+    "correo": 8,
+    "llamadasEntrantes": 20,
+    "llamadasSalientes": 12
+  },
+  {
+    "id": "d382c326-ea09-46c4-b97a-e4cfadab3eda",
+    "timestamp": "2026-04-15T15:00:00.000Z",
+    "assistantId": "astrid",
+    "areaId": "adm-pre",
+    "date": "2026-04-15",
+    "correo": 20,
+    "salesforce": 15,
+    "llamadasSalientes": 10
+  },
+  {
+    "id": "b382c326-ea09-46c4-b97a-e4cfadab3ed1",
+    "timestamp": "2026-04-16T09:00:00.000Z",
+    "assistantId": "astrid",
+    "areaId": "adm-pre",
+    "date": "2026-04-16",
+    "presencial": 12,
+    "correo": 25,
+    "llamadasEntrantes": 15,
+    "llamadasSalientes": 8,
+    "salesforce": 5,
+    "asesoriaEducativa": 3
+  },
+  {
+    "id": "c382c326-ea09-46c4-b97a-e4cfadab3ed2",
+    "timestamp": "2026-04-16T10:30:00.000Z",
+    "assistantId": "lia",
+    "areaId": "adm-pre",
+    "date": "2026-04-16",
+    "presencial": 20,
+    "correo": 12,
+    "llamadasEntrantes": 22,
+    "llamadasSalientes": 15
+  },
+  {
+    "id": "e382c326-ea09-46c4-b97a-e4cfadab3ed4",
+    "timestamp": "2026-04-17T08:30:00.000Z",
+    "assistantId": "precilia",
+    "areaId": "adm-pre",
+    "date": "2026-04-17",
+    "presencial": 25,
+    "correo": 18,
+    "llamadasEntrantes": 12,
+    "salesforce": 10
+  },
+  {
+    "id": "f382c326-ea09-46c4-b97a-e4cfadab3ed5",
+    "timestamp": "2026-04-17T09:45:00.000Z",
+    "assistantId": "astrid",
+    "areaId": "adm-pre",
+    "date": "2026-04-17",
+    "correo": 30,
+    "salesforce": 20,
+    "llamadasSalientes": 15
+  },
+  {
+    "id": "g382c326-ea09-46c4-b97a-e4cfadab3ed6",
+    "timestamp": "2026-04-17T11:00:00.000Z",
+    "assistantId": "lia",
+    "areaId": "adm-pre",
+    "date": "2026-04-17",
+    "presencial": 15,
+    "correo": 10,
+    "llamadasEntrantes": 25,
+    "asesoriaEducativa": 6
+  },
+  {
+    "id": "72062879-d380-4150-b854-d371d882fcde",
+    "timestamp": "2026-04-17T23:23:59.726Z",
+    "assistantId": "apoyo2",
+    "areaId": "adm-pre",
+    "presencial": 12,
+    "correo": 22,
+    "satisfactionNeutral": 1,
+    "date": "2026-04-17"
+  }
+]
