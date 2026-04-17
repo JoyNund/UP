@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Georgia", serif;
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  
+  --color-up-navy: #003366;
+  --color-up-gold: #c5a059;
+  --color-up-bg: #fdfdfb;
+  --color-up-ink: #1a1a1a;
+  --color-up-border: #e2e2e2;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-up-bg text-up-ink;
+  }
+  
+  h1, h2, h3, .serif {
+    @apply font-serif italic;
+  }
+}
+
+@layer components {
+  .pane-title {
+    @apply font-serif text-xl italic mb-6 border-b border-up-border pb-2 text-up-navy;
+  }
+  
+  .metric-box {
+    @apply border border-up-border p-4 text-center bg-white;
+  }
+  
+  .metric-val {
+    @apply font-serif text-4xl block text-up-navy mb-1;
+  }
+  
+  .metric-label {
+    @apply text-[10px] uppercase tracking-widest text-gray-500 font-bold;
+  }
+
+  .editorial-button {
+    @apply block w-full p-3 mb-3 bg-transparent border border-up-navy text-up-navy text-[11px] font-bold text-left uppercase transition-all hover:bg-up-navy hover:text-white;
+  }
+}
